@@ -1,4 +1,4 @@
-from address_book import AddressBook
+from address_book.address_book import AddressBook
 
 
 print(

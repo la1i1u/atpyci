@@ -1,5 +1,5 @@
 import time
-from contact import Contact
+from address_book.contact import Contact
 
 
 def stopwatch(func):
