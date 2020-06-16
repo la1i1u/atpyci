@@ -1,4 +1,4 @@
-from browserworks import driver
+from conftest import driver
 from selenium import webdriver
 
 
