@@ -11,7 +11,7 @@ class TestVacation:
 
         vacancies_main_page = VacanciesPage(driver)
         vacancies_main_page.go_to_vacancies()
-        vacancies_main_page.enter_word(word)
+        vacancies_main_page.enter_word_in_company_names_input(word)
         vacancies_main_page.click_on_search_button()
         result = vacancies_main_page.find_all_company_names()
 
